@@ -1,0 +1,15 @@
+.general {
+    width: 100vh;
+    height: 100vh;
+    background-color:black;
+    color: blue;
+    text-align: center;
+    justify-items: center;
+    border: #2c2018 10px;
+    /* display:block; */
+}
+
+.general button {
+    background-color:#0D0C0A;
+    color: blue;
+}
