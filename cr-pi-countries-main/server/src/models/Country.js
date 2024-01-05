@@ -24,7 +24,15 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    bandera:{
+    nameEspañol: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    nameEnglish: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
+    bandera: {
       type: DataTypes.TEXT,//puede que la url mas larga de 250 caracteres
       allowNull: false,
     },
@@ -32,11 +40,11 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull:false,
     },
-    Capital:{
+    capital:{
       type: DataTypes.STRING,
       allowNull:false,
     },
-    Subregion:{
+    subregion:{
       type: DataTypes.STRING,
       allowNull:true,//puee ser nulos
     },
@@ -48,7 +56,7 @@ module.exports = (sequelize) => {
       type: DataTypes.DOUBLE,//poblacion en decimales?
       allowNull:false,
     },
-    fronteras:{
+    fronteras:{//borders
       type: DataTypes.STRING,
       allowNull:false,
     }
