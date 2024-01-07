@@ -13,8 +13,8 @@ const SearchBar = ()=>{
                 <Link to="/formulary"><button>Formulary</button></Link>
                 <Link><button>Search Country</button></Link>
                 <Link><input></input></Link>
-                <Link to="about_me"><button>About me</button></Link>
-                <Link><button>Log Out</button></Link>
+                <Link to="/about_me"><button>About me</button></Link>
+                <Link to="/"><button>Log Out</button></Link>
                 <Link><button>Contact</button></Link>
             </div>
         </div>

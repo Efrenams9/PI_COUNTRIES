@@ -1,2 +1,12 @@
 .barraGeneral{
-    background-color: transparent;}
+    background-color:black;
+}
+
+
+@media (max-width: 667px) {
+    .barraGeneral button {
+        width: 20px;
+        height: 10px;
+    }
+}
+   

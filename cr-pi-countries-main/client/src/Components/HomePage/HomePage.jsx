@@ -14,6 +14,9 @@ const HomePage = () => {
         count is {count}
       </button> */}
       <SearchBar/>
+      <div>
+        <h1>AQUI PROBAREMOS DIFERENTES PANTALLAS</h1>
+      </div>
     </div>
   );
 };
